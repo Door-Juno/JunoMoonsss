@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int main(void){
+    int a = 10 ; 
+    int *p = &a ; 
+    double *pd ; 
 
-  printf("Hello world !하이 ");
+    pd = p ; 
+    printf("%lf\n",*pd);
 
-  return 0; 
+    return 0; 
 }
